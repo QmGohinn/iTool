@@ -29,3 +29,14 @@ HEADERS += \
 SOURCES += \
     _APL/iToolMainForm/mainwindow.cpp \
     _BASE/main.cpp
+
+DISTFILES += \
+    3rd/readme.txt \
+    BAT/readme.txt \
+    CFG/readme.txt \
+    DOC/readme.txt \
+    _APL/readme.txt \
+    _BASE/readme.txt \
+    _BK/readme.txt \
+    _old/readme.txt \
+    _output/readme.txt
