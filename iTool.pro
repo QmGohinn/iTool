@@ -40,3 +40,10 @@ DISTFILES += \
     _BK/readme.txt \
     _old/readme.txt \
     _output/readme.txt
+
+#程序LOGO
+RC_ICONS += res/logo/logo.ico
+
+#资源文件
+RESOURCES += \
+    iToolres.qrc
