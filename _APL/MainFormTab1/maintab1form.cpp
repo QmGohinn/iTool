@@ -59,3 +59,18 @@ void MainTab1Form::on_pushButton_2_clicked()
 {
     iToolGlobal::OpenUrl("https://leetcode.cn/");
 }
+
+void MainTab1Form::on_pushButton_23_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.zhihu.com/");
+}
+
+void MainTab1Form::on_pushButton_28_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.samsung.com/cn/");
+}
+
+void MainTab1Form::on_pushButton_35_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.bangongziyuan.com/");
+}

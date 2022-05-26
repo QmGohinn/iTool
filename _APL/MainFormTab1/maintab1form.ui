@@ -119,7 +119,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -147,7 +147,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -175,7 +175,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -203,7 +203,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -314,7 +314,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -342,7 +342,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -370,7 +370,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -398,7 +398,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -468,7 +468,17 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/zhihu.ico</normaloff>:/res/action/zhihu.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -496,7 +506,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -524,7 +534,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -552,7 +562,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -580,7 +590,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -650,7 +660,17 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/samsung.ico</normaloff>:/res/action/samsung.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -678,7 +698,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -706,7 +726,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -734,7 +754,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -762,7 +782,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -832,7 +852,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -860,7 +880,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -888,7 +908,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -916,7 +936,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -944,7 +964,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1014,7 +1034,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1042,7 +1062,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1070,7 +1090,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1098,7 +1118,17 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string>办公资源</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/officeres.ico</normaloff>:/res/action/officeres.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1126,7 +1156,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1196,7 +1226,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1224,7 +1254,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1252,7 +1282,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1280,7 +1310,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1308,7 +1338,7 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
        <property name="autoDefault">
         <bool>false</bool>

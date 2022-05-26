@@ -41,7 +41,8 @@ DISTFILES += \
     _BK/readme.txt \
     _old/readme.txt \
     _output/readme.txt \
-    res/action/schoolmainpage.ico
+    res/action/schoolmainpage.ico \
+    res/action/zhihu.ico
 
 #程序LOGO
 RC_ICONS += res/logo/logo.ico

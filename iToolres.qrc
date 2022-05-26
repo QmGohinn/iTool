@@ -18,5 +18,8 @@
         <file>res/action/privacy.ico</file>
         <file>res/action/stackoverflow.ico</file>
         <file>res/action/leetcode.ico</file>
+        <file>res/action/zhihu.ico</file>
+        <file>res/action/samsung.ico</file>
+        <file>res/action/officeres.ico</file>
     </qresource>
 </RCC>

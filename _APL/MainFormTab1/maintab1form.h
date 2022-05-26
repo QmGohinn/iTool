@@ -28,6 +28,12 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_pushButton_23_clicked();
+
+    void on_pushButton_28_clicked();
+
+    void on_pushButton_35_clicked();
+
 private:
     Ui::MainTab1Form *ui;
 };
