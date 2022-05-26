@@ -81,7 +81,17 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string>stack overflow</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/stackoverflow.ico</normaloff>:/res/action/stackoverflow.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -266,7 +276,17 @@
         </font>
        </property>
        <property name="text">
-        <string> </string>
+        <string>Leetcode</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/leetcode.ico</normaloff>:/res/action/leetcode.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>

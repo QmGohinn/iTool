@@ -49,3 +49,13 @@ void MainTab1Form::on_pushButton_44_clicked()
 {
     iToolGlobal::OpenUrl("https://tools.kalvinbg.cn/");
 }
+
+void MainTab1Form::on_pushButton_19_clicked()
+{
+    iToolGlobal::OpenUrl("https://stackoverflow.com/");
+}
+
+void MainTab1Form::on_pushButton_2_clicked()
+{
+    iToolGlobal::OpenUrl("https://leetcode.cn/");
+}

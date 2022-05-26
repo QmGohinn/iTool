@@ -16,5 +16,7 @@
         <file>res/action/draw.ico</file>
         <file>res/action/min.ico</file>
         <file>res/action/privacy.ico</file>
+        <file>res/action/stackoverflow.ico</file>
+        <file>res/action/leetcode.ico</file>
     </qresource>
 </RCC>
