@@ -23,11 +23,12 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     _APL/MainFormTab1/maintab1form.h \
     _APL/iToolMainForm/itoolmainform.h \
-    _BASE/iToolGlobal.hpp
+    _BASE/iToolGlobal.h
 
 SOURCES += \
     _APL/MainFormTab1/maintab1form.cpp \
     _APL/iToolMainForm/itoolmainform.cpp \
+    _BASE/iToolGlobal.cpp \
     _BASE/main.cpp
 
 DISTFILES += \

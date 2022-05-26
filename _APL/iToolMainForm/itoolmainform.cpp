@@ -3,7 +3,7 @@
 #include <_APL/MainFormTab1/maintab1form.h>
 
 #include <QCloseEvent>
-#include <_BASE/iToolGlobal.hpp>
+#include <_BASE/iToolGlobal.h>
 
 iToolmainForm::iToolmainForm(QWidget *parent) :
     QMainWindow(parent),
@@ -72,4 +72,9 @@ void iToolmainForm::on_action_Q_triggered()
 {
     QApplication::setStyle(iToolGlobal::g_widgetStyle.at(iToolGlobal::g_currentStyle % iToolGlobal::g_widgetStyle.size()));
     iToolGlobal::g_currentStyle += 1;
+}
+
+void iToolmainForm::on_action_M_triggered()
+{
+    this->showMinimized();
 }

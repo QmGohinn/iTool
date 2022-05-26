@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QApplication::setStyle("Fusion");
+    QApplication::setStyle("Windows");
     iToolmainForm w;
     w.show();
     return a.exec();

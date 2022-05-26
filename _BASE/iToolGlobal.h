@@ -18,11 +18,4 @@ public:
     static void OpenUrl(QString url);
 };
 
-int iToolGlobal::g_currentStyle = 0;
-QVector<QString> iToolGlobal::g_widgetStyle = {"Fusion", "windowsvista", "Windows"};
-
-void iToolGlobal::OpenUrl(QString url){
-    QDesktopServices::openUrl(QUrl(url));
-}
-
 #endif

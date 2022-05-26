@@ -15,6 +15,15 @@ public:
     explicit MainTab1Form(QWidget *parent = nullptr);
     ~MainTab1Form();
 
+private slots:
+    void on_pushButton_17_clicked();
+    void on_pushButton_clicked();
+    void on_pushButton_24_clicked();
+    void on_pushButton_29_clicked();
+    void on_pushButton_34_clicked();
+    void on_pushButton_39_clicked();
+    void on_pushButton_44_clicked();
+
 private:
     Ui::MainTab1Form *ui;
 };

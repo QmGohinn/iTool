@@ -81,7 +81,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -109,7 +109,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -137,7 +137,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -165,7 +165,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -193,7 +193,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -230,6 +230,16 @@
        <property name="text">
         <string>Neusoft</string>
        </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/company.ico</normaloff>:/res/action/company.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -256,7 +266,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -284,7 +294,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -312,7 +322,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -340,7 +350,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -368,7 +378,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -402,6 +412,16 @@
        <property name="text">
         <string>查字典网</string>
        </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/dictionary.ico</normaloff>:/res/action/dictionary.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -428,7 +448,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -456,7 +476,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -484,7 +504,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -512,7 +532,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -540,7 +560,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -574,6 +594,16 @@
        <property name="text">
         <string>谷歌翻译</string>
        </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/translate.ico</normaloff>:/res/action/translate.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -600,7 +630,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -628,7 +658,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -656,7 +686,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -684,7 +714,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -712,7 +742,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -744,7 +774,17 @@
         </font>
        </property>
        <property name="text">
-        <string>CSDN</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/csdn.ico</normaloff>:/res/action/csdn.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -772,7 +812,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -800,7 +840,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -828,7 +868,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -856,7 +896,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -884,7 +924,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -916,7 +956,17 @@
         </font>
        </property>
        <property name="text">
-        <string>临时邮箱网站</string>
+        <string>临时邮箱</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/mail.ico</normaloff>:/res/action/mail.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -944,7 +994,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -972,7 +1022,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1000,7 +1050,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1028,7 +1078,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1056,7 +1106,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1090,6 +1140,16 @@
        <property name="text">
         <string>kalvin</string>
        </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/draw.ico</normaloff>:/res/action/draw.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -1116,7 +1176,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1144,7 +1204,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1172,7 +1232,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1200,7 +1260,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1228,7 +1288,7 @@
         </font>
        </property>
        <property name="text">
-        <string>PushButton</string>
+        <string> </string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>

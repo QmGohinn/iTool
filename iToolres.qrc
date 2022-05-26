@@ -8,5 +8,13 @@
         <file>res/action/jwc.ico</file>
         <file>res/action/style.ico</file>
         <file>res/action/github.ico</file>
+        <file>res/action/company.ico</file>
+        <file>res/action/dictionary.ico</file>
+        <file>res/action/translate.ico</file>
+        <file>res/action/csdn.ico</file>
+        <file>res/action/mail.ico</file>
+        <file>res/action/draw.ico</file>
+        <file>res/action/min.ico</file>
+        <file>res/action/privacy.ico</file>
     </qresource>
 </RCC>

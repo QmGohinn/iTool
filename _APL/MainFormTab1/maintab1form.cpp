@@ -1,6 +1,8 @@
 #include "maintab1form.h"
 #include "ui_maintab1form.h"
 
+#include <_BASE/iToolGlobal.h>
+
 MainTab1Form::MainTab1Form(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::MainTab1Form)
@@ -11,4 +13,39 @@ MainTab1Form::MainTab1Form(QWidget *parent) :
 MainTab1Form::~MainTab1Form()
 {
     delete ui;
+}
+
+void MainTab1Form::on_pushButton_17_clicked()
+{
+    iToolGlobal::OpenUrl("https://github.com/");
+}
+
+void MainTab1Form::on_pushButton_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.neusoft.com/cn/");
+}
+
+void MainTab1Form::on_pushButton_24_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.chazidian.com/");
+}
+
+void MainTab1Form::on_pushButton_29_clicked()
+{
+    iToolGlobal::OpenUrl("https://translate.google.cn");
+}
+
+void MainTab1Form::on_pushButton_34_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.csdn.net/");
+}
+
+void MainTab1Form::on_pushButton_39_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.linshiyouxiang.net/");
+}
+
+void MainTab1Form::on_pushButton_44_clicked()
+{
+    iToolGlobal::OpenUrl("https://tools.kalvinbg.cn/");
 }
