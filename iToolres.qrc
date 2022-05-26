@@ -1,5 +1,12 @@
 <RCC>
     <qresource prefix="/">
         <file>res/logo/logo.ico</file>
+        <file>res/urls/baidu.ico</file>
+        <file>res/urls/bilibili.ico</file>
+        <file>res/action/close.ico</file>
+        <file>res/action/schoolmainpage.ico</file>
+        <file>res/action/jwc.ico</file>
+        <file>res/action/style.ico</file>
+        <file>res/action/github.ico</file>
     </qresource>
 </RCC>

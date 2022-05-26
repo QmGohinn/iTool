@@ -20,14 +20,14 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-FORMS += \
-    _APL/iToolMainForm/mainwindow.ui
-
 HEADERS += \
-    _APL/iToolMainForm/mainwindow.h
+    _APL/MainFormTab1/maintab1form.h \
+    _APL/iToolMainForm/itoolmainform.h \
+    _BASE/iToolGlobal.hpp
 
 SOURCES += \
-    _APL/iToolMainForm/mainwindow.cpp \
+    _APL/MainFormTab1/maintab1form.cpp \
+    _APL/iToolMainForm/itoolmainform.cpp \
     _BASE/main.cpp
 
 DISTFILES += \
@@ -39,7 +39,8 @@ DISTFILES += \
     _BASE/readme.txt \
     _BK/readme.txt \
     _old/readme.txt \
-    _output/readme.txt
+    _output/readme.txt \
+    res/action/schoolmainpage.ico
 
 #程序LOGO
 RC_ICONS += res/logo/logo.ico
@@ -47,3 +48,7 @@ RC_ICONS += res/logo/logo.ico
 #资源文件
 RESOURCES += \
     iToolres.qrc
+
+FORMS += \
+    _APL/MainFormTab1/maintab1form.ui \
+    _APL/iToolMainForm/itoolmainform.ui
