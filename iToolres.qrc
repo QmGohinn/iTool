@@ -47,5 +47,6 @@
         <file>res/action/bug.ico</file>
         <file>res/action/games.ico</file>
         <file>res/action/rabbit.ico</file>
+        <file>res/action/5118.ico</file>
     </qresource>
 </RCC>

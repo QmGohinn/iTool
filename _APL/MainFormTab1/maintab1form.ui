@@ -398,7 +398,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>5118</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/5118.ico</normaloff>:/res/action/5118.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>

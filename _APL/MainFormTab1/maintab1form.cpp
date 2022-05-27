@@ -219,3 +219,8 @@ void MainTab1Form::on_pushButton_21_clicked()
 {
     iToolGlobal::OpenUrl("https://cp.anyknew.com/");
 }
+
+void MainTab1Form::on_pushButton_6_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.5118.com/");
+}
