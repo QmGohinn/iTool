@@ -436,6 +436,16 @@
        <property name="text">
         <string/>
        </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/T.ico</normaloff>:/res/action/T.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -655,7 +665,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>搜酷站</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/coolurl.ico</normaloff>:/res/action/coolurl.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>

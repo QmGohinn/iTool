@@ -36,5 +36,7 @@
         <file>res/action/benbenlaa.ico</file>
         <file>res/action/fu365.ico</file>
         <file>res/action/51ux.png</file>
+        <file>res/action/coolurl.ico</file>
+        <file>res/action/T.ico</file>
     </qresource>
 </RCC>

@@ -66,6 +66,14 @@ private slots:
 
     void on_pushButton_27_clicked();
 
+    void on_pushButton_8_clicked();
+
+    void on_pushButton_4_clicked();
+
+    void on_pushButton_38_clicked();
+
+    void on_pushButton_43_clicked();
+
 private:
     Ui::MainTab1Form *ui;
 };

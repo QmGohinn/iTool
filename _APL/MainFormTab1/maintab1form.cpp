@@ -154,3 +154,23 @@ void MainTab1Form::on_pushButton_27_clicked()
 {
     iToolGlobal::OpenUrl("https://5iux.cn/");
 }
+
+void MainTab1Form::on_pushButton_8_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.soukuzhan.com/");
+}
+
+void MainTab1Form::on_pushButton_4_clicked()
+{
+    iToolGlobal::OpenUrl("https://tt0.top/");
+}
+
+void MainTab1Form::on_pushButton_38_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.jianavi.com/");
+}
+
+void MainTab1Form::on_pushButton_43_clicked()
+{
+    iToolGlobal::OpenUrl("https://dama.lu/");
+}
