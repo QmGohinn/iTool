@@ -26,12 +26,14 @@ HEADERS += \
     _APL/MainFormTab1/maintab1form.h \
     _APL/iToolMainForm/itoolmainform.h \
     _APL/selfModuleCheckDlg/selfmodulecheckdlg.h \
+    _APL/selfModuleForm/selfmoduleform.h \
     _BASE/iToolGlobal.h
 
 SOURCES += \
     _APL/MainFormTab1/maintab1form.cpp \
     _APL/iToolMainForm/itoolmainform.cpp \
     _APL/selfModuleCheckDlg/selfmodulecheckdlg.cpp \
+    _APL/selfModuleForm/selfmoduleform.cpp \
     _BASE/iToolGlobal.cpp \
     _BASE/main.cpp
 
@@ -57,4 +59,5 @@ RESOURCES += \
 FORMS += \
     _APL/MainFormTab1/maintab1form.ui \
     _APL/iToolMainForm/itoolmainform.ui \
-    _APL/selfModuleCheckDlg/selfmodulecheckdlg.ui
+    _APL/selfModuleCheckDlg/selfmodulecheckdlg.ui \
+    _APL/selfModuleForm/selfmoduleform.ui

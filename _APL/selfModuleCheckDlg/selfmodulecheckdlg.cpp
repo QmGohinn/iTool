@@ -19,7 +19,7 @@ selfModuleCheckDlg::~selfModuleCheckDlg()
 
 void selfModuleCheckDlg::on_buttonBox_accepted()
 {
-    if(ui->lineEdit->text().compare("221376") == 0){
+    if(ui->lineEdit->text().compare("Qm@") == 0){
         iToolGlobal::g_mainForm->InputSelfModule();
         ui->lineEdit->clear();
         this->accept();

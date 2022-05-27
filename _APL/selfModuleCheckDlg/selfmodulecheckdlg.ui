@@ -34,6 +34,9 @@
   <property name="windowTitle">
    <string/>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLineEdit" name="lineEdit">
@@ -43,11 +46,20 @@
        <height>30</height>
       </size>
      </property>
+     <property name="font">
+      <font>
+       <family>宋体</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
      <property name="mouseTracking">
       <bool>true</bool>
      </property>
      <property name="tabletTracking">
       <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
      </property>
      <property name="echoMode">
       <enum>QLineEdit::Password</enum>
@@ -56,13 +68,13 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="placeholderText">
-      <string>键入隐私空间口令</string>
+      <string>键入六位隐私口令</string>
      </property>
      <property name="cursorMoveStyle">
       <enum>Qt::LogicalMoveStyle</enum>
      </property>
      <property name="clearButtonEnabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
     </widget>
    </item>
@@ -88,6 +100,9 @@
      </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
      </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>

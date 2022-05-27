@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 
+#include <_APL/selfModuleForm/selfmoduleform.h>
 #include <_APL/selfModuleCheckDlg/selfmodulecheckdlg.h>
 #include <_APL/MainFormTab1/maintab1form.h>
 
@@ -34,7 +35,7 @@ private:
 
 public:
     MainTab1Form* m_tab1Form = nullptr;
-    MainTab1Form* m_tab2Form = nullptr;
+    selfModuleForm* m_tab2Form = nullptr;
     selfModuleCheckDlg* m_checkDlg = nullptr;
 
     void InputSelfModule();

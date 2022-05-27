@@ -1,5 +1,6 @@
 #include "itoolmainform.h"
 #include "ui_itoolmainform.h"
+
 #include <_APL/MainFormTab1/maintab1form.h>
 
 #include <3rd/QHotKey/QHotkey/QHotkey>
@@ -11,6 +12,7 @@ iToolmainForm::iToolmainForm(QWidget *parent) :
     ui(new Ui::iToolmainForm)
 {
     ui->setupUi(this);
+    this->setWindowFlag(Qt::FramelessWindowHint);
     this->showMaximized();
 
     QHotkey *hotkey = new QHotkey(QKeySequence("Ctrl+Q"), true);
@@ -87,9 +89,9 @@ void iToolmainForm::on_action_P_triggered()
 void iToolmainForm::InputSelfModule()
 {
     if(m_tab2Form == nullptr){
-        m_tab2Form = new MainTab1Form;
+        m_tab2Form = new selfModuleForm;
     }
-    ui->tabWidget->addTab(m_tab2Form, "111");
+    ui->tabWidget->addTab(m_tab2Form, "隐私导航页");
 }
 
 void iToolmainForm::ExitSelfModule()
