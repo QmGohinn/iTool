@@ -54,3 +54,8 @@ void iToolmainForm::on_action_M_triggered()
 {
     this->showMinimized();
 }
+
+void iToolmainForm::on_action_X_triggered()
+{
+    this->showMaximized();
+}

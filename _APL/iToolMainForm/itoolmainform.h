@@ -24,6 +24,8 @@ private slots:
     void on_action_Q_triggered();
     void on_action_M_triggered();
 
+    void on_action_X_triggered();
+
 private:
     Ui::iToolmainForm *ui;
 
