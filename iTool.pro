@@ -25,11 +25,13 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     _APL/MainFormTab1/maintab1form.h \
     _APL/iToolMainForm/itoolmainform.h \
+    _APL/selfModuleCheckDlg/selfmodulecheckdlg.h \
     _BASE/iToolGlobal.h
 
 SOURCES += \
     _APL/MainFormTab1/maintab1form.cpp \
     _APL/iToolMainForm/itoolmainform.cpp \
+    _APL/selfModuleCheckDlg/selfmodulecheckdlg.cpp \
     _BASE/iToolGlobal.cpp \
     _BASE/main.cpp
 
@@ -43,8 +45,6 @@ DISTFILES += \
     _BK/readme.txt \
     _old/readme.txt \
     _output/readme.txt \
-    res/action/schoolmainpage.ico \
-    res/action/zhihu.ico
 
 #程序LOGO
 RC_ICONS += res/logo/logo.ico
@@ -55,4 +55,5 @@ RESOURCES += \
 
 FORMS += \
     _APL/MainFormTab1/maintab1form.ui \
-    _APL/iToolMainForm/itoolmainform.ui
+    _APL/iToolMainForm/itoolmainform.ui \
+    _APL/selfModuleCheckDlg/selfmodulecheckdlg.ui

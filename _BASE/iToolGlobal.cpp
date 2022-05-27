@@ -6,3 +6,5 @@ QVector<QString> iToolGlobal::g_widgetStyle = {"Fusion", "windowsvista", "Window
 void iToolGlobal::OpenUrl(QString url){
     QDesktopServices::openUrl(QUrl(url));
 }
+
+iToolmainForm* iToolGlobal::g_mainForm = nullptr;

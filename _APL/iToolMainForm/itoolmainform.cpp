@@ -22,6 +22,7 @@ iToolmainForm::iToolmainForm(QWidget *parent) :
         m_tab1Form = new MainTab1Form;
     }
 
+    ui->action_P->setCheckable(true);
     ui->tabWidget->addTab(m_tab1Form, "导航页");
 }
 
@@ -59,9 +60,44 @@ void iToolmainForm::on_action_Q_triggered()
 void iToolmainForm::on_action_M_triggered()
 {
     this->showMinimized();
+    this->ExitSelfModule();
 }
 
 void iToolmainForm::on_action_X_triggered()
 {
     this->showMaximized();
+}
+
+void iToolmainForm::on_action_P_triggered()
+{
+    if(ui->action_P->isChecked() == true){
+        if(m_checkDlg == nullptr){
+            m_checkDlg = new selfModuleCheckDlg(this);
+        }
+        m_checkDlg->move(20, 900);
+        m_checkDlg->exec();
+    }
+    else{
+        ExitSelfModule();
+    }
+}
+
+void iToolmainForm::InputSelfModule()
+{
+    if(m_tab2Form == nullptr){
+        m_tab2Form = new MainTab1Form;
+    }
+    ui->tabWidget->addTab(m_tab2Form, "111");
+//    ui->action_P->setChecked(true);
+}
+
+void iToolmainForm::ExitSelfModule()
+{
+    ui->tabWidget->removeTab(ui->tabWidget->indexOf(m_tab2Form));
+    ui->action_P->setChecked(false);
+}
+
+void iToolmainForm::CancelCheck()
+{
+    ui->action_P->setChecked(false);
 }

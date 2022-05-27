@@ -6,6 +6,8 @@
 #include <QDebug>
 #include <QMessageBox>
 
+#include <_APL/iToolMainForm/itoolmainform.h>
+
 class iToolGlobal{
 
 private:
@@ -15,6 +17,7 @@ public:
     static QVector<QString> g_widgetStyle;
 
 public:
+    static iToolmainForm* g_mainForm;
     static void OpenUrl(QString url);
 };
 
