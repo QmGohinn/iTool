@@ -2,6 +2,7 @@
 #include "ui_itoolmainform.h"
 #include <_APL/MainFormTab1/maintab1form.h>
 
+#include <3rd/QHotKey/QHotkey/QHotkey>
 #include <QCloseEvent>
 #include <_BASE/iToolGlobal.h>
 
@@ -11,6 +12,11 @@ iToolmainForm::iToolmainForm(QWidget *parent) :
 {
     ui->setupUi(this);
     this->showMaximized();
+
+    QHotkey *hotkey = new QHotkey(QKeySequence("Ctrl+Q"), true);
+    connect(hotkey, &QHotkey::activated, [this](){
+        this->showMaximized();
+    });
 
     if(m_tab1Form == nullptr){
         m_tab1Form = new MainTab1Form;
