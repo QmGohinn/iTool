@@ -74,3 +74,83 @@ void MainTab1Form::on_pushButton_35_clicked()
 {
     iToolGlobal::OpenUrl("https://www.bangongziyuan.com/");
 }
+
+void MainTab1Form::on_pushButton_30_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.lanqiao.cn/");
+}
+
+void MainTab1Form::on_pushButton_20_clicked()
+{
+    iToolGlobal::OpenUrl("https://it-ebooks.info/");
+}
+
+void MainTab1Form::on_pushButton_7_clicked()
+{
+    iToolGlobal::OpenUrl("https://github.com/justjavac/free-programming-books-zh_CN");
+}
+
+void MainTab1Form::on_pushButton_9_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.51zxw.net/");
+}
+
+void MainTab1Form::on_pushButton_33_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.getitfree.cn/");
+}
+
+void MainTab1Form::on_pushButton_42_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.miguyu.com/");
+}
+
+void MainTab1Form::on_pushButton_37_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.moulem.com/");
+}
+
+void MainTab1Form::on_pushButton_32_clicked()
+{
+    iToolGlobal::OpenUrl("https://36kr.com/");
+}
+
+void MainTab1Form::on_pushButton_18_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.jd.com/");
+}
+
+void MainTab1Form::on_pushButton_3_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.benbenla.com/");
+}
+
+void MainTab1Form::on_pushButton_22_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.fu365.com/");
+}
+
+void MainTab1Form::on_pushButton_40_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.baidu.com/");
+}
+
+void MainTab1Form::on_pushButton_12_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.bilibili.com/");
+}
+
+void MainTab1Form::on_pushButton_10_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.xust.edu.cn/");
+}
+
+void MainTab1Form::on_pushButton_11_clicked()
+{
+    iToolGlobal::OpenUrl("https://jwc.xust.edu.cn/");
+}
+
+void MainTab1Form::on_pushButton_27_clicked()
+{
+    iToolGlobal::OpenUrl("https://5iux.cn/");
+}

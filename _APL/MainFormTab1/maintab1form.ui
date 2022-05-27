@@ -42,6 +42,9 @@
          <pointsize>10</pointsize>
         </font>
        </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
        <property name="text">
         <string>Github</string>
        </property>
@@ -51,8 +54,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -80,6 +83,9 @@
          <pointsize>10</pointsize>
         </font>
        </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
        <property name="text">
         <string>stack overflow</string>
        </property>
@@ -89,8 +95,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -120,6 +126,16 @@
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/JD.ico</normaloff>:/res/action/JD.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -203,7 +219,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>编程书籍</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/chinabook.ico</normaloff>:/res/action/chinabook.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -246,8 +272,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -284,8 +310,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -314,7 +340,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>benbenla导航</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/benbenlaa.ico</normaloff>:/res/action/benbenlaa.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -429,6 +465,9 @@
          <pointsize>10</pointsize>
         </font>
        </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
        <property name="text">
         <string>查字典网</string>
        </property>
@@ -438,9 +477,12 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -505,8 +547,21 @@
          <pointsize>10</pointsize>
         </font>
        </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
        <property name="text">
-        <string/>
+        <string> Fu365</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/fu365.ico</normaloff>:/res/action/fu365.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -562,7 +617,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>电子书网</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/pdf.ico</normaloff>:/res/action/pdf.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -630,8 +695,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -698,7 +763,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>51ux</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/51ux.png</normaloff>:/res/action/51ux.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -782,7 +857,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>自学网站</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/selfstudy.ico</normaloff>:/res/action/selfstudy.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -852,7 +937,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>GitItFree</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/freesoft.ico</normaloff>:/res/action/freesoft.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -880,7 +975,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>36氪</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/36kr.ico</normaloff>:/res/action/36kr.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -936,7 +1041,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>蓝桥云课</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/cloud.ico</normaloff>:/res/action/cloud.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -964,7 +1079,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>XUST官网</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/schoolmainpage.ico</normaloff>:/res/action/schoolmainpage.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1004,8 +1129,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -1034,7 +1159,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>简约导航</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/simplenavigation.ico</normaloff>:/res/action/simplenavigation.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1062,7 +1197,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>moulem</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/moulem.ico</normaloff>:/res/action/moulem.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1126,8 +1271,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -1156,7 +1301,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>教务处</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/jwc.ico</normaloff>:/res/action/jwc.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1196,8 +1351,8 @@
        </property>
        <property name="iconSize">
         <size>
-         <width>30</width>
-         <height>30</height>
+         <width>40</width>
+         <height>40</height>
         </size>
        </property>
        <property name="autoDefault">
@@ -1226,7 +1381,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>大马路</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/bigroad.ico</normaloff>:/res/action/bigroad.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1254,7 +1419,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>miguyu</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/miguyu.ico</normaloff>:/res/action/miguyu.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1310,7 +1485,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>Baidu</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/urls/baidu.ico</normaloff>:/res/urls/baidu.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1338,7 +1523,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>Bilibili</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/urls/bilibili.ico</normaloff>:/res/urls/bilibili.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>

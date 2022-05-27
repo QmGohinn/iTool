@@ -21,5 +21,20 @@
         <file>res/action/zhihu.ico</file>
         <file>res/action/samsung.ico</file>
         <file>res/action/officeres.ico</file>
+        <file>res/action/cloud.ico</file>
+        <file>res/action/pdf.ico</file>
+        <file>res/action/book.ico</file>
+        <file>res/action/chinabook.ico</file>
+        <file>res/action/selfstudy.ico</file>
+        <file>res/action/freesoft.ico</file>
+        <file>res/action/simplenavigation.ico</file>
+        <file>res/action/bigroad.ico</file>
+        <file>res/action/miguyu.ico</file>
+        <file>res/action/moulem.ico</file>
+        <file>res/action/36kr.ico</file>
+        <file>res/action/JD.ico</file>
+        <file>res/action/benbenlaa.ico</file>
+        <file>res/action/fu365.ico</file>
+        <file>res/action/51ux.png</file>
     </qresource>
 </RCC>

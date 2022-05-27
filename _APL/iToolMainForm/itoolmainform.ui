@@ -166,8 +166,11 @@
    <property name="windowTitle">
     <string>toolBar</string>
    </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
    <property name="allowedAreas">
-    <set>Qt::BottomToolBarArea|Qt::TopToolBarArea</set>
+    <set>Qt::NoToolBarArea</set>
    </property>
    <property name="iconSize">
     <size>
@@ -184,13 +187,12 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionBaidu_D"/>
    <addaction name="separator"/>
-   <addaction name="actionBilibili"/>
+   <addaction name="action_M"/>
    <addaction name="separator"/>
-   <addaction name="action_E"/>
+   <addaction name="action_P"/>
    <addaction name="separator"/>
-   <addaction name="action_X"/>
+   <addaction name="action_Q"/>
    <addaction name="separator"/>
   </widget>
   <widget class="QToolBar" name="toolBar_2">
@@ -200,8 +202,11 @@
    <property name="windowTitle">
     <string>toolBar_2</string>
    </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
    <property name="allowedAreas">
-    <set>Qt::BottomToolBarArea|Qt::TopToolBarArea</set>
+    <set>Qt::NoToolBarArea</set>
    </property>
    <property name="iconSize">
     <size>
@@ -218,37 +223,9 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="action_iTool"/>
+   <addaction name="separator"/>
   </widget>
-  <action name="actionBaidu_D">
-   <property name="icon">
-    <iconset resource="../../iToolres.qrc">
-     <normaloff>:/res/urls/baidu.ico</normaloff>:/res/urls/baidu.ico</iconset>
-   </property>
-   <property name="text">
-    <string>打开百度(&amp;D)</string>
-   </property>
-   <property name="font">
-    <font>
-     <family>宋体</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </action>
-  <action name="actionBilibili">
-   <property name="icon">
-    <iconset resource="../../iToolres.qrc">
-     <normaloff>:/res/urls/bilibili.ico</normaloff>:/res/urls/bilibili.ico</iconset>
-   </property>
-   <property name="text">
-    <string>打开B站(&amp;B)</string>
-   </property>
-   <property name="font">
-    <font>
-     <family>宋体</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </action>
   <action name="action_iTool">
    <property name="icon">
     <iconset resource="../../iToolres.qrc">
@@ -267,43 +244,13 @@
     <string>Ctrl+E</string>
    </property>
   </action>
-  <action name="action_X">
-   <property name="icon">
-    <iconset resource="../../iToolres.qrc">
-     <normaloff>:/res/action/schoolmainpage.ico</normaloff>:/res/action/schoolmainpage.ico</iconset>
-   </property>
-   <property name="text">
-    <string>母校官网(&amp;X)</string>
-   </property>
-   <property name="font">
-    <font>
-     <family>宋体</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </action>
-  <action name="action_E">
-   <property name="icon">
-    <iconset resource="../../iToolres.qrc">
-     <normaloff>:/res/action/jwc.ico</normaloff>:/res/action/jwc.ico</iconset>
-   </property>
-   <property name="text">
-    <string>学校教务处(&amp;E)</string>
-   </property>
-   <property name="font">
-    <font>
-     <family>宋体</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </action>
   <action name="action_Q">
    <property name="icon">
     <iconset resource="../../iToolres.qrc">
      <normaloff>:/res/action/style.ico</normaloff>:/res/action/style.ico</iconset>
    </property>
    <property name="text">
-    <string>切换窗体样式(&amp;Q)</string>
+    <string>切换样式(&amp;Q)</string>
    </property>
    <property name="font">
     <font>

@@ -37,34 +37,10 @@ void iToolmainForm::closeEvent(QCloseEvent *e)
     }
 }
 
-/// open baidu
-void iToolmainForm::on_actionBaidu_D_triggered()
-{
-    iToolGlobal::OpenUrl("https://www.baidu.com/");
-}
-
-/// open bilibili
-void iToolmainForm::on_actionBilibili_triggered()
-{
-    iToolGlobal::OpenUrl("https://www.bilibili.com/");
-}
-
 /// exit itool
 void iToolmainForm::on_action_iTool_triggered()
 {
     this->close();
-}
-
-/// open xust mainpage
-void iToolmainForm::on_action_X_triggered()
-{
-    iToolGlobal::OpenUrl("https://www.xust.edu.cn/");
-}
-
-/// open xust jwc
-void iToolmainForm::on_action_E_triggered()
-{
-    iToolGlobal::OpenUrl("https://jwc.xust.edu.cn/");
 }
 
 /// shift widget style
