@@ -75,7 +75,9 @@ void iToolmainForm::on_action_P_triggered()
             m_checkDlg = new selfModuleCheckDlg(this);
         }
         m_checkDlg->move(20, 900);
-        m_checkDlg->exec();
+        if(m_checkDlg->exec() == QDialog::Rejected){
+            this->CancelCheck();
+        }
     }
     else{
         ExitSelfModule();
@@ -88,7 +90,6 @@ void iToolmainForm::InputSelfModule()
         m_tab2Form = new MainTab1Form;
     }
     ui->tabWidget->addTab(m_tab2Form, "111");
-//    ui->action_P->setChecked(true);
 }
 
 void iToolmainForm::ExitSelfModule()
@@ -100,4 +101,14 @@ void iToolmainForm::ExitSelfModule()
 void iToolmainForm::CancelCheck()
 {
     ui->action_P->setChecked(false);
+}
+
+void iToolmainForm::on_action_S_triggered()
+{
+    auto _bef = ui->tabWidget->currentWidget();
+    ui->tabWidget->setCurrentIndex(ui->tabWidget->currentIndex() + 1);
+    auto _aft = ui->tabWidget->currentWidget();
+    if(_bef == _aft){
+        ui->tabWidget->setCurrentIndex(0);
+    }
 }

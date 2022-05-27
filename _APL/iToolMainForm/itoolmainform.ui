@@ -133,10 +133,6 @@
      <string>菜单(&amp;M)</string>
     </property>
     <addaction name="separator"/>
-    <addaction name="action_X"/>
-    <addaction name="separator"/>
-    <addaction name="action_M"/>
-    <addaction name="separator"/>
     <addaction name="action_iTool"/>
     <addaction name="separator"/>
    </widget>
@@ -178,6 +174,12 @@
     <property name="title">
      <string>视图(&amp;V)</string>
     </property>
+    <addaction name="separator"/>
+    <addaction name="action_S"/>
+    <addaction name="separator"/>
+    <addaction name="action_X"/>
+    <addaction name="separator"/>
+    <addaction name="action_M"/>
     <addaction name="separator"/>
     <addaction name="action_Q"/>
     <addaction name="separator"/>
@@ -227,8 +229,6 @@
    <addaction name="separator"/>
    <addaction name="action_P"/>
    <addaction name="separator"/>
-   <addaction name="action_Q"/>
-   <addaction name="separator"/>
   </widget>
   <widget class="QToolBar" name="toolBar_2">
    <property name="cursor">
@@ -258,6 +258,11 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="separator"/>
+   <addaction name="action_S"/>
+   <addaction name="separator"/>
+   <addaction name="action_Q"/>
+   <addaction name="separator"/>
    <addaction name="action_iTool"/>
    <addaction name="separator"/>
   </widget>
@@ -346,6 +351,18 @@
    </property>
    <property name="shortcut">
     <string>Space</string>
+   </property>
+  </action>
+  <action name="action_S">
+   <property name="icon">
+    <iconset resource="../../iToolres.qrc">
+     <normaloff>:/res/action/tab.ico</normaloff>:/res/action/tab.ico</iconset>
+   </property>
+   <property name="text">
+    <string>切换窗口(&amp;S)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Tab</string>
    </property>
   </action>
  </widget>

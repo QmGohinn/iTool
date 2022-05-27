@@ -22,7 +22,7 @@ void selfModuleCheckDlg::on_buttonBox_accepted()
     if(ui->lineEdit->text().compare("221376") == 0){
         iToolGlobal::g_mainForm->InputSelfModule();
         ui->lineEdit->clear();
-        this->close();
+        this->accept();
     }
     else{
         ui->lineEdit->clear();
@@ -31,7 +31,6 @@ void selfModuleCheckDlg::on_buttonBox_accepted()
 
 void selfModuleCheckDlg::on_buttonBox_rejected()
 {
-    iToolGlobal::g_mainForm->CancelCheck();
     ui->lineEdit->clear();
-    this->close();
+    this->reject();
 }

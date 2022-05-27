@@ -49,5 +49,6 @@
         <file>res/action/rabbit.ico</file>
         <file>res/action/5118.ico</file>
         <file>res/action/max.ico</file>
+        <file>res/action/tab.ico</file>
     </qresource>
 </RCC>

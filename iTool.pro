@@ -44,7 +44,8 @@ DISTFILES += \
     _BASE/readme.txt \
     _BK/readme.txt \
     _old/readme.txt \
-    _output/readme.txt \
+    _output/readme.txt \ \
+    res/action/tab.ico
 
 #程序LOGO
 RC_ICONS += res/logo/logo.ico
