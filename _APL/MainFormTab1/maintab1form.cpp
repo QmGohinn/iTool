@@ -174,3 +174,48 @@ void MainTab1Form::on_pushButton_43_clicked()
 {
     iToolGlobal::OpenUrl("https://dama.lu/");
 }
+
+void MainTab1Form::on_pushButton_15_clicked()
+{
+    iToolGlobal::OpenUrl("https://wannengrun.com/zh/");
+}
+
+void MainTab1Form::on_pushButton_5_clicked()
+{
+    iToolGlobal::OpenUrl("https://123apps.com/cn/");
+}
+
+void MainTab1Form::on_pushButton_25_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.lanrenexcel.com/");
+}
+
+void MainTab1Form::on_pushButton_41_clicked()
+{
+    iToolGlobal::OpenUrl("https://wallhaven.cc/");
+}
+
+void MainTab1Form::on_pushButton_36_clicked()
+{
+    iToolGlobal::OpenUrl("https://tools.miku.ac/");
+}
+
+void MainTab1Form::on_pushButton_16_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.anyknew.com/#/");
+}
+
+void MainTab1Form::on_pushButton_31_clicked()
+{
+    iToolGlobal::OpenUrl("https://search.chongbuluo.com/");
+}
+
+void MainTab1Form::on_pushButton_26_clicked()
+{
+    iToolGlobal::OpenUrl("https://www.yikm.net/");
+}
+
+void MainTab1Form::on_pushButton_21_clicked()
+{
+    iToolGlobal::OpenUrl("https://cp.anyknew.com/");
+}

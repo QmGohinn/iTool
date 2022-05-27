@@ -163,7 +163,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>AnyNews</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/anynews.ico</normaloff>:/res/action/anynews.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -191,7 +201,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>万能命令</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/tools.ico</normaloff>:/res/action/tools.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -406,7 +426,18 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>WebApps</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/res/action/webapps.ico</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>35</width>
+         <height>35</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -599,7 +630,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>拷贝兔</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/rabbit.ico</normaloff>:/res/action/rabbit.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -821,7 +862,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>小霸王游戏机</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/games.ico</normaloff>:/res/action/games.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -849,7 +900,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>懒人Excel</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/excel.ico</normaloff>:/res/action/excel.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1033,7 +1094,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>虫部落</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/bug.ico</normaloff>:/res/action/bug.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1255,7 +1326,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>MiKuTools</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/mikutool.ico</normaloff>:/res/action/mikutool.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1477,7 +1558,17 @@
         </font>
        </property>
        <property name="text">
-        <string/>
+        <string>WallHaven</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../iToolres.qrc">
+         <normaloff>:/res/action/wallpaper.ico</normaloff>:/res/action/wallpaper.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
        <property name="autoDefault">
         <bool>false</bool>

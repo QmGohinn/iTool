@@ -38,5 +38,14 @@
         <file>res/action/51ux.png</file>
         <file>res/action/coolurl.ico</file>
         <file>res/action/T.ico</file>
+        <file>res/action/tools.ico</file>
+        <file>res/action/webapps.ico</file>
+        <file>res/action/excel.ico</file>
+        <file>res/action/wallpaper.ico</file>
+        <file>res/action/mikutool.ico</file>
+        <file>res/action/anynews.ico</file>
+        <file>res/action/bug.ico</file>
+        <file>res/action/games.ico</file>
+        <file>res/action/rabbit.ico</file>
     </qresource>
 </RCC>
