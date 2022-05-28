@@ -76,7 +76,7 @@ void iToolmainForm::on_action_P_triggered()
         if(m_checkDlg == nullptr){
             m_checkDlg = new selfModuleCheckDlg(this);
         }
-        m_checkDlg->move(20, 900);
+        m_checkDlg->move(0, 880);
         if(m_checkDlg->exec() == QDialog::Rejected){
             this->CancelCheck();
         }
