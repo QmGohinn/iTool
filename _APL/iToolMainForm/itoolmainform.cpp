@@ -18,6 +18,8 @@ iToolmainForm::iToolmainForm(QWidget *parent) :
     QHotkey *hotkey = new QHotkey(QKeySequence("Ctrl+Q"), true);
     connect(hotkey, &QHotkey::activated, [this](){
         this->showMaximized();
+        this->activateWindow();
+        this->raise();
     });
 
     if(m_tab1Form == nullptr){
