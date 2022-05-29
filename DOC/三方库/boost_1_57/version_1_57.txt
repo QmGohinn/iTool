@@ -1,0 +1,39 @@
+------------------------------
+NOTE FOR MSVC++ AND QT4 ONLY :
+------------------------------
+By default, Qt4 is built using "/Zc:wchar_t-" compiler option (this is not true with Qt5 !).
+So we add cxxflags="/Zc:wchar_t- " parameter to bjam to build boost libraries in the same way.
+But, to remove the following warning : "Command line warning D9025 : overriding '/Zc:wchar_t' with '/Zc:wchar_t-'".
+We have to modify './tools/build/v2/tools/msvc.jam' file and remove '/Zc:wchar_t' in compiler options.
+For QxOrm library, it's used only if you are working with boost wide serialization library.
+------------------------------
+
+-----------------------------------------
+COMMAND LINE TO BUILD USING MSVC++ 2008 :
+-----------------------------------------
+bjam.exe -d2 --build-dir=build --toolset=msvc-9.0 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared stage
+bjam.exe -d2 --build-dir=build --toolset=msvc-9.0 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared install
+
+-----------------------------------------
+COMMAND LINE TO BUILD USING MSVC++ 2010 :
+-----------------------------------------
+bjam.exe -d2 --build-dir=build --toolset=msvc-10.0 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared stage
+bjam.exe -d2 --build-dir=build --toolset=msvc-10.0 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared install
+
+-------------------------------------------------------
+COMMAND LINE TO BUILD USING MINGW GCC 4.5.1 AND 4.9.1 :
+-------------------------------------------------------
+bjam.exe --build-dir=build --toolset=gcc --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared stage
+bjam.exe --build-dir=build --toolset=gcc --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared install
+
+--------------------------------------------------
+COMMAND LINE TO BUILD USING MSVC++ 2012 (32bits) :
+--------------------------------------------------
+bjam.exe -d2 --build-dir=build --toolset=msvc-11.0 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared stage
+bjam.exe -d2 --build-dir=build --toolset=msvc-11.0 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared install
+
+--------------------------------------------------
+COMMAND LINE TO BUILD USING MSVC++ 2012 (64bits) :
+--------------------------------------------------
+bjam.exe -d2 --build-dir=build --toolset=msvc-11.0 address-model=64 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared stage
+bjam.exe -d2 --build-dir=build --toolset=msvc-11.0 address-model=64 --with-serialization variant=debug,release link=shared threading=multi runtime-link=shared install
